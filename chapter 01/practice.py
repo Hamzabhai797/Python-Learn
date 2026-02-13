@@ -55,3 +55,27 @@
 # a = float(input("Enter first number: "))
 # b = float(input("Enter second number: "))
 # print("avg :", (a + b)/2)
+
+# name = 'Hamza'
+# print(name)
+# age = 22
+# print(f"I am {age} years old.")
+# a = 10
+# b = 20
+# c = a + b
+# print("Total Sum", c)
+
+# a = 8
+# b = 2.4
+# c = 'Hamza'
+# pass_value = True
+# print(a)
+# print(b)
+# print(c)
+# print(pass_value)
+
+# name = input("Enter your name: ")
+a = input("Enter first number: ")
+b = input("Enter second number: ")
+c = int(a) * int(b)
+print(f"Total: {c}")
