@@ -14,6 +14,10 @@ while True:
     headline = f"BREAKING NEWS: {subject} {action} {place_or_thing}"
     print("\n" + headline)
 
-    cont = input("Generate another headline? (y/n): ").strip().lower()
+    user_input = input("Generate another headline? (y/n): ").strip().lower()
+    if user_input == "n":
+        break
 
-time = 34:00
+print("\nThanks for using the Fake Headline Generator!")
+
+# time = 34:00
