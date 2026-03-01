@@ -79,3 +79,10 @@
 # b = input("Enter second number: ")
 # c = int(a) * int(b)
 # print(f"Total: {c}")
+
+# name = input("Enter your name: ")
+# print(f"Hello {name}")
+
+# uni = input("Enter your university name:")
+# print(f"My university name is {uni}")
+
