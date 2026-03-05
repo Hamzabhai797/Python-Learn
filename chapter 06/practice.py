@@ -20,3 +20,5 @@
 #   PKR = USD * 283
 #   print(USD, "USD =", PKR, "PKR")
 # converter(3000)
+
+cities = ["karachi", "lahore", "islamabad", "faisalabad", "mansehra"]
