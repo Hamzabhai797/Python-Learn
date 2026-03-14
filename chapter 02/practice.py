@@ -182,3 +182,35 @@
 #     print("This is a multiple of 7")
 # else:
 #     print("This is not a multiple of 7")
+
+
+
+
+
+# 1. String length
+s = input("Enter a string: ")
+print("Length:", len(s))
+
+
+# 2. Convert string to uppercase
+s = input("Enter a string: ")
+print("Uppercase:", s.upper())
+
+
+# 3. First and last character
+s = input("Enter a string: ")
+print("First character:", s[0])
+print("Last character:", s[-1])
+
+
+# 4. Reverse a string
+s = input("Enter a string: ")
+print("Reverse:", s[::-1])
+
+
+# 5. Check if string is empty
+s = input("Enter a string: ")
+if not s:
+    print("String is empty")
+else:
+    print("String is available")
